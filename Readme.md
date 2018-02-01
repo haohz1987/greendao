@@ -14,7 +14,7 @@
       apply plugin: 'org.greenrobot.greendao'
       greendao {
           schemaVersion 1                         //版本号，升级数据库版本时配置
-          daoPackage'com.handpay.laucher.dao'     //包名
+          daoPackage'com.hhz.greendao.dao'        //包名,文件路径要手工创建
           targetGenDir'src/main/java'             //生成目录
       }
       dependencies {
@@ -46,7 +46,7 @@
 
      * DbCore，用于获取DaoMaster和DaoSession，
      * BaseDbHelper, 基础的泛型辅助类，封装基本增删改查方法
-     * 创建自定义辅助类
+     * 创建自定义辅助类，数据库版本管理
          public class MyOpenHelper extends DaoMaster.OpenHelper {
              public MyOpenHelper(Context context, String name) {
                  super(context, name);
