@@ -1,4 +1,4 @@
-package com.handpay.laucher.entity;
+package com.hhz.greendao.entity;
 
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Id;

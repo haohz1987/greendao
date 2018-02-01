@@ -1,4 +1,4 @@
-package com.handpay.laucher;
+package com.hhz.greendao;
 
 import android.text.TextUtils;
 import android.util.Log;

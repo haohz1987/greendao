@@ -13,10 +13,9 @@
 ********************************End of Head************************************\
 */
 
-package com.handpay.laucher.db;
+package com.hhz.greendao.db;
 
-
-import com.handpay.laucher.dao.AppDataDao;
+import com.hhz.greendao.dao.AppDataDao;
 
 /**
  *  获取表 Helper 的工具类

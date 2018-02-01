@@ -1,4 +1,4 @@
-package com.handpay.laucher;
+package com.hhz.greendao;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,11 +6,11 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.handpay.laucher.dao.AppDataDao;
-import com.handpay.laucher.dao.DaoMaster;
-import com.handpay.laucher.db.AppDataHelper;
-import com.handpay.laucher.db.DbUtil;
-import com.handpay.laucher.entity.AppData;
+import com.hhz.greendao.dao.AppDataDao;
+import com.hhz.greendao.dao.DaoMaster;
+import com.hhz.greendao.db.AppDataHelper;
+import com.hhz.greendao.db.DbUtil;
+import com.hhz.greendao.entity.AppData;
 
 import org.greenrobot.greendao.query.Query;
 
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv_db = findViewById(R.id.tv_db);
-        LogT.w("数据库版本："+DaoMaster.SCHEMA_VERSION);
+        LogT.w("数据库版本："+ DaoMaster.SCHEMA_VERSION);
         //获取操作类
         appDataHelper = DbUtil.getAppDataHelper();
 

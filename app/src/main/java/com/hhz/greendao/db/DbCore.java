@@ -1,9 +1,10 @@
-package com.handpay.laucher.db;
+package com.hhz.greendao.db;
+
 
 import android.content.Context;
 
-import com.handpay.laucher.dao.DaoMaster;
-import com.handpay.laucher.dao.DaoSession;
+import com.hhz.greendao.dao.DaoMaster;
+import com.hhz.greendao.dao.DaoSession;
 
 import org.greenrobot.greendao.query.QueryBuilder;
 

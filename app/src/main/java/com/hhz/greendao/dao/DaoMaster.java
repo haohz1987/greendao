@@ -1,4 +1,4 @@
-package com.handpay.laucher.dao;
+package com.hhz.greendao.dao;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

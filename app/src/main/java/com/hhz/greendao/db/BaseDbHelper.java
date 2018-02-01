@@ -1,4 +1,4 @@
-package com.handpay.laucher.db;
+package com.hhz.greendao.db;
 
 
 import org.greenrobot.greendao.AbstractDao;

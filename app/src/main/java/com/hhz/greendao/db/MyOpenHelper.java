@@ -41,13 +41,13 @@
 ******************* End of Head **********************\
 */
 
-package com.handpay.laucher.db;
+package com.hhz.greendao.db;
 
 import android.content.Context;
 
-import com.handpay.laucher.LogT;
-import com.handpay.laucher.dao.AppDataDao;
-import com.handpay.laucher.dao.DaoMaster;
+import com.hhz.greendao.LogT;
+import com.hhz.greendao.dao.AppDataDao;
+import com.hhz.greendao.dao.DaoMaster;
 
 import org.greenrobot.greendao.database.Database;
 

@@ -1,7 +1,6 @@
-package com.handpay.laucher.db;
+package com.hhz.greendao.db;
 
-
-import com.handpay.laucher.entity.AppData;
+import com.hhz.greendao.entity.AppData;
 
 import org.greenrobot.greendao.AbstractDao;
 

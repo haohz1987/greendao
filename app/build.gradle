@@ -4,7 +4,7 @@ apply plugin: 'org.greenrobot.greendao'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.handpay.laucher"
+        applicationId "com.hhz.greendao"
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 1
@@ -20,7 +20,7 @@ android {
 }
 greendao {
     schemaVersion 3                         //版本号，升级数据库版本时配置
-    daoPackage'com.handpay.laucher.dao'     //包名
+    daoPackage'com.hhz.greendao.dao'     //包名
     targetGenDir'src/main/java'             //生成目录
 }
 
